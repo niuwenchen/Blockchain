@@ -52,7 +52,7 @@
     
     另一种启动rpc通信的
     geth --identity "secbro etherum"  --rpc --rpccorsdomain "*"  --datadir "./blockData" --port "30303" 
-        --rpcapi "db,eth,net,web3" --networkid 95518 console 2>>geth.log 
+        --rpcapi "db,eth,net,web3" --networkid 95518 console 
         
     identity: 区块链的标识，用于表示当前网络的名字
     init: 指定创世块文件的位置，并创建创世块
